@@ -1,0 +1,45 @@
+table {
+  border-collapse: collapse;
+  margin-top: 50px; 
+
+  /* align-items: center;
+  justify-content: center; */
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+th {
+
+  border: 1px solid black;
+  color: green;
+  background-color: rgb(219, 221, 221);
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  /* margin-bottom: 10px; */
+  width:200px;
+}
+
+button {
+  margin-left: 10px;
+  width:150px;
+}
+
+.input_category {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50vh;
+}
+@media screen and (max-width: 480px) {
+  th {
+    color: blue;
+  }
+}

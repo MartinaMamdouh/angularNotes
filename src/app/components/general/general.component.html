@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <button (click)="navigateToNotesEditor()" *ngIf="!display" class="btn"> note editor</button>
+            <button (click)="navigateToCategory()" *ngIf="!display" class="btn"> category</button>         
+        </div>
+    </div>
+</div>
+
+<router-outlet ></router-outlet>

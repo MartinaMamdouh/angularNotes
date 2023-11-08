@@ -1,0 +1,17 @@
+<table>
+    <tr>
+        <th>{{'Title' | uppercase}}:</th>
+        <th>{{'Body' | uppercase}}</th>
+        <th>{{'Category ID' | uppercase}}:</th>
+        <th>{{'Employee ID' | uppercase}}:</th>
+        <th>{{'Employee Name' | uppercase}}:</th>
+
+    </tr>
+    <tr *ngFor="let note of notes">
+        <td>{{note.title}}</td>
+        <td>{{note.body}}</td>
+        <td>{{note.categoryId}}</td>
+        <td>{{note.employeesId}}</td>
+        <td>{{note.employees.name}}</td>
+    </tr>
+</table>

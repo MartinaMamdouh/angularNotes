@@ -1,0 +1,18 @@
+table{
+    width:auto;
+    border-collapse: collapse;
+
+}
+th {
+    border: 0.5px solid black;
+    color: green;
+    background-color: rgb(219, 221, 221);
+    text-align: center;
+  }
+  
+  td {
+    border: 0.5px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
