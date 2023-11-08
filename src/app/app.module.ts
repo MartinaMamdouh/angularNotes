@@ -12,6 +12,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ListComponent } from './components/list/list.component';
 import { ViewNotesComponent } from './components/view-notes/view-notes.component';
 import {provideClientHydration} from '@angular/platform-browser';
+import { ChecklistComponent } from './components/checklist/checklist.component';
 
 const routes: Routes = [
   { path: 'app-note-editor', component: NoteEditorComponent },
@@ -27,7 +28,8 @@ const routes: Routes = [
     ViewCategoriesComponent,
     GeneralComponent,
     ListComponent,
-    ViewNotesComponent
+    ViewNotesComponent,
+    ChecklistComponent
   ],
   imports: [
     BrowserModule,
